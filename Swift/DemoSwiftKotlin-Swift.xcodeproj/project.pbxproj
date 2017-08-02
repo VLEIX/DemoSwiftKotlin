@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		118B0DDC1F04680A0084E537 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118B0DDB1F04680A0084E537 /* Result.swift */; };
+		15EF8C481F045664001C4349 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF8C471F045664001C4349 /* AppDelegate.swift */; };
+		15EF8C4A1F045664001C4349 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF8C491F045664001C4349 /* ViewController.swift */; };
+		15EF8C4D1F045664001C4349 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EF8C4B1F045664001C4349 /* Main.storyboard */; };
+		15EF8C4F1F045664001C4349 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15EF8C4E1F045664001C4349 /* Assets.xcassets */; };
+		15EF8C521F045664001C4349 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15EF8C501F045664001C4349 /* LaunchScreen.storyboard */; };
+		15EF8C5A1F045701001C4349 /* UtilSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF8C591F045701001C4349 /* UtilSwift.swift */; };
+		15EF8C5C1F0460EF001C4349 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15EF8C5B1F0460EF001C4349 /* StringExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		118B0DDB1F04680A0084E537 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		15EF8C441F045663001C4349 /* DemoSwiftKotlin-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DemoSwiftKotlin-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		15EF8C471F045664001C4349 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15EF8C491F045664001C4349 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15EF8C4C1F045664001C4349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15EF8C4E1F045664001C4349 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15EF8C511F045664001C4349 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15EF8C531F045664001C4349 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15EF8C591F045701001C4349 /* UtilSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilSwift.swift; sourceTree = "<group>"; };
+		15EF8C5B1F0460EF001C4349 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15EF8C411F045663001C4349 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15EF8C3B1F045663001C4349 = {
+			isa = PBXGroup;
+			children = (
+				15EF8C461F045663001C4349 /* DemoSwiftKotlin-Swift */,
+				15EF8C451F045663001C4349 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15EF8C451F045663001C4349 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15EF8C441F045663001C4349 /* DemoSwiftKotlin-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15EF8C461F045663001C4349 /* DemoSwiftKotlin-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				15EF8C471F045664001C4349 /* AppDelegate.swift */,
+				15EF8C491F045664001C4349 /* ViewController.swift */,
+				118B0DDB1F04680A0084E537 /* Result.swift */,
+				15EF8C591F045701001C4349 /* UtilSwift.swift */,
+				15EF8C5B1F0460EF001C4349 /* StringExtension.swift */,
+				15EF8C4B1F045664001C4349 /* Main.storyboard */,
+				15EF8C4E1F045664001C4349 /* Assets.xcassets */,
+				15EF8C501F045664001C4349 /* LaunchScreen.storyboard */,
+				15EF8C531F045664001C4349 /* Info.plist */,
+			);
+			path = "DemoSwiftKotlin-Swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15EF8C431F045663001C4349 /* DemoSwiftKotlin-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15EF8C561F045664001C4349 /* Build configuration list for PBXNativeTarget "DemoSwiftKotlin-Swift" */;
+			buildPhases = (
+				15EF8C401F045663001C4349 /* Sources */,
+				15EF8C411F045663001C4349 /* Frameworks */,
+				15EF8C421F045663001C4349 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DemoSwiftKotlin-Swift";
+			productName = "DemoSwiftKotlin-Swift";
+			productReference = 15EF8C441F045663001C4349 /* DemoSwiftKotlin-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15EF8C3C1F045663001C4349 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = VLEIX;
+				TargetAttributes = {
+					15EF8C431F045663001C4349 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 15EF8C3F1F045663001C4349 /* Build configuration list for PBXProject "DemoSwiftKotlin-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15EF8C3B1F045663001C4349;
+			productRefGroup = 15EF8C451F045663001C4349 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15EF8C431F045663001C4349 /* DemoSwiftKotlin-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15EF8C421F045663001C4349 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EF8C521F045664001C4349 /* LaunchScreen.storyboard in Resources */,
+				15EF8C4F1F045664001C4349 /* Assets.xcassets in Resources */,
+				15EF8C4D1F045664001C4349 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15EF8C401F045663001C4349 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15EF8C5C1F0460EF001C4349 /* StringExtension.swift in Sources */,
+				118B0DDC1F04680A0084E537 /* Result.swift in Sources */,
+				15EF8C5A1F045701001C4349 /* UtilSwift.swift in Sources */,
+				15EF8C4A1F045664001C4349 /* ViewController.swift in Sources */,
+				15EF8C481F045664001C4349 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15EF8C4B1F045664001C4349 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15EF8C4C1F045664001C4349 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15EF8C501F045664001C4349 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15EF8C511F045664001C4349 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15EF8C541F045664001C4349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15EF8C551F045664001C4349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15EF8C571F045664001C4349 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DemoSwiftKotlin-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vleix.DemoSwiftKotlin-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		15EF8C581F045664001C4349 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "DemoSwiftKotlin-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vleix.DemoSwiftKotlin-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15EF8C3F1F045663001C4349 /* Build configuration list for PBXProject "DemoSwiftKotlin-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EF8C541F045664001C4349 /* Debug */,
+				15EF8C551F045664001C4349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15EF8C561F045664001C4349 /* Build configuration list for PBXNativeTarget "DemoSwiftKotlin-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15EF8C571F045664001C4349 /* Debug */,
+				15EF8C581F045664001C4349 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15EF8C3C1F045663001C4349 /* Project object */;
+}
